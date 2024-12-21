@@ -1,0 +1,18 @@
+#select-access-to{
+    width:456px;
+    padding: 8px 22px;
+    
+}
+.MuiChip-labelMedium{
+font-size: 14px !important;
+}
+.MuiListItemText-primary{
+    font-size: 14px !important;
+}
+@media only screen and (min-resolution: 1dppx) and (max-resolution: 125dpi) {
+    #select-access-to{
+        width:540px;
+        padding: 11px 24px;
+        
+    }
+}

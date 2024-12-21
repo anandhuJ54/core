@@ -1,0 +1,35 @@
+.footer {
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  background: #ca7300 !important;
+  box-shadow:0 -4px 10px 0 rgba(0, 0, 0, 0.15);
+  border-radius:0 !important;
+  height: 30px;
+  .copyright {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 4px 40px;
+    .footer-img {
+      width: 60px;
+      height: 22px;
+      margin:0 9px;
+    }
+  }
+}
+@media only screen and (min-resolution: 1dppx) and (max-resolution: 125dpi) {
+  .footer {
+    height: 40px;
+    .copyright {
+      font-size: 18px;
+      .footer-img {
+        width: 60px;
+        height: 32px;
+      }
+  }
+  }
+}

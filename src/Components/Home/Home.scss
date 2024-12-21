@@ -1,0 +1,27 @@
+.home-panel{
+    display: flex;
+    min-height: calc(100vh - 60px);
+    .left{
+        width:16%;
+        background: #fff;
+        display: flex;
+        .Box {
+            padding-top:0;
+            padding-right: 0;
+            width: 100%;
+            a{
+                display: flex;
+                justify-content: left;
+                font-size: 16px;
+                padding-left: 20px;
+                span{
+                    margin-bottom: -3px;
+                }
+            }
+        }
+    }
+    .right{
+        width:84%;
+        position: relative;
+    }
+}

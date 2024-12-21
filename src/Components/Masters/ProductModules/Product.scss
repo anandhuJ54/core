@@ -1,0 +1,382 @@
+.MuiDialog-paper {
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+  margin:0 !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  .box-main-product {
+  //  width: 300px;
+    .title {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      width: 100%;
+      padding: 5px 10px;
+      background-color: #ca7300;
+      color: #fff;
+      font-weight: 600;
+      .close {
+        color: #fff;
+      }
+    }
+  }
+  .vertical-content {
+    padding: 15px;
+    //width: 300px;
+    .vertical-content-label {
+      color: #ca7300;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    .vertical-text {
+      width: 100%;
+      margin-bottom: 10px;
+    
+      input {
+        color: #6a6d70;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 7.5px 14px;
+      }
+    }
+    
+    .vertical-description {
+      width: 100%;
+      margin-bottom: 10px;
+      .MuiTextarea-textarea {
+        color: #6a6d70;
+        font-size: 12px;
+        font-weight: 500;
+        //padding: 7.5px 14px;
+      }
+      input {
+        color: #6a6d70;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 7.5px 14px;
+      }
+    }
+    .version-picker{
+      min-width: 150px !important;
+    }
+    .MuiSelect-outlined{
+      padding: 4px;
+    }
+    .version {
+      display: flex;
+      justify-content: space-between;
+      .date-picker,.version-type{
+        width:47%;
+        .MuiStack-root{
+          padding: 0px ;
+          input{
+            font-size: 12px;
+            padding: 8px 14px;
+          }
+        }
+      }
+      .version-label {
+        color: #ca7300;
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+      .version-text {
+        width: 100%;
+        margin-bottom: 10px;
+        input {
+          color: #6a6d70;
+          font-size: 12px;
+          font-weight: 500;
+          padding: 7.5px 14px;
+        }
+        .unit-svg{
+          cursor: pointer;
+        }
+      }
+    }
+    .single-upload {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 40px;
+      flex-shrink: 0;
+      border-radius: 2px;
+      border: 0.8px dashed #6a6d70;
+      background: #e8e8e8;
+      padding: 5px 10px;
+      .product-upload-text {
+        color: #6a6d70;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      .product-upload-icon {
+        width: 34px;
+        height: 30px;
+        border-radius: 2px;
+        background: #ca7300;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+    }
+    .single-upload-complete {
+      height: 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 2px;
+      border: 0.8px solid #89919a;
+      background: #fff;
+      margin-top: 7px;
+      .product-complete-text {
+        color: #6a6d70;
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 10px;
+      }
+      .product-delete-icon {
+        width: 16px;
+        height: 16px;
+        border-radius: 250%;
+        background: #fbeddb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ca7300;
+        margin-right: 10px;
+        svg {
+          width: 9px;
+          height: 10px;
+        }
+      }
+    }
+    .multi-upload {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 40px;
+      border-radius: 2px;
+      border: 0.8px dashed #CA7300;
+      background: #FBEDDB;
+      padding: 5px 10px;
+      .multi-upload-text {
+        color: #6a6d70;
+        font-size: 12px;
+        font-weight: 500;
+        
+      }
+      .multi-upload-icon {
+        width: 34px;
+        height: 30px;
+        border-radius: 2px;
+        background: #CA7300;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        
+      }
+    }
+    .multi-upload-complete {
+      height: 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 2px;
+      border: 0.8px solid #89919a;
+      background: #fff;
+      margin-top: 7px;
+      .product-complete-text {
+        color: #6a6d70;
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 10px;
+      }
+      .product-delete-icon {
+        width: 16px;
+        height: 16px;
+        border-radius: 250%;
+        background: #fbeddb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ca7300;
+        margin-right: 10px;
+        svg {
+          width: 9px;
+          height: 10px;
+        }
+      }
+    }
+  }
+  .vertical-footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    background: #fff;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    .vertical-clear {
+      color: #ca7300;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 5px;
+      border: 1px solid #ca7300;
+      margin-right: 10px;
+    }
+    .vertical-save {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 5px;
+      border: 1px solid #ca7300;
+      background: #ca7300;
+      margin-right: 20px;
+    }
+    .vertical-save.disabled {
+      background-color: #e0e0e0;
+      color: #757575;
+      cursor: not-allowed;
+    }
+  }
+}
+.MuiSvgIcon-root{
+  font-size: 12px !important;
+}
+.item-select{
+  font-size: 12px !important;
+}
+@media only screen and (min-resolution: 1dppx) and (max-resolution: 125dpi) {
+  .MuiSvgIcon-root{
+    font-size: 18px !important;
+  }
+  .MuiSelect-outlined{
+    padding: 10px !important;
+  }
+  .MuiDialog-paper {
+    .box-main-product {
+      width: 100%;
+      height: 60px;
+      .title {
+        width: 100%;
+        height: 60px;
+        padding: 12px;
+        font-size: 20px;
+        .close {
+          svg{
+            font-size: 24px;
+          }
+        }
+      }
+    }
+   
+  .vertical-content {
+    padding-bottom: 40px;
+    .vertical-content-label {
+      font-size: 16px;
+    } .version-picker{
+      min-width: 260px !important;
+    }
+    .vertical-text {
+      input {
+        font-size: 14px ;
+        padding: 12px ;
+      }
+    }
+    .vertical-description {
+      .MuiTextarea-textarea {
+        font-size: 16px ;
+      }
+      input {
+        font-size: 16px ;
+        padding: 12px ;
+      }
+    }
+    .version {
+      width: 100%;
+      .date-picker,.version-type{
+        .MuiStack-root{
+          input{
+            font-size: 16px;
+            padding: 12px 14px;
+          }
+        }
+      }
+      .version-label {
+        font-size: 16px ;
+      }
+      .version-text {
+        input {
+          font-size: 16px !important;
+          padding: 12px ;
+        }
+      }
+    }
+    .single-upload {
+      height: 50px;
+      .product-upload-text {
+        font-size: 14px;
+      }
+      .product-upload-icon {
+        width: 34px;
+        height: 30px;
+      }
+    }
+    .single-upload-complete {
+      height: 42px;
+      .product-complete-text {
+        font-size: 14px;
+      }
+      .product-delete-icon {
+        width: 32px;
+        height: 32px;
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    .multi-upload {
+      height: 50px ;
+      padding: 5px 10px;
+      .multi-upload-text {
+        font-size: 14px;        
+      }
+      .multi-upload-icon {
+        width: 34px;
+        height: 30px;        
+      }
+    }
+    .multi-upload-complete {
+      height: 42px;
+      .product-complete-text {
+        font-size: 14px;
+      }
+      .product-delete-icon {
+        width: 32px;
+        height: 32px;
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+  .vertical-footer {
+    height: 50px;
+    .vertical-clear {
+      font-size: 16px;
+    }
+    .vertical-save {
+      font-size: 16px;
+    }
+  }
+}
+}

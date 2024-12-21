@@ -1,0 +1,32 @@
+.side-nav-box {
+    box-shadow:0 4px 4px 0 #00000040;
+    padding-top:0;
+
+    .ListItemButton {
+        margin: 0 0 5px 0;
+        border-radius: 5px;
+        width: 100%;
+
+        .ListItemContent {
+            font-size: 14px;
+            font-weight: 600;
+           
+        }
+        
+    }
+}
+.Mui-selected{
+    background: #CA7300 !important;
+}
+.MuiListItem-variantPlain {
+    padding:0 5px !important;
+}
+@media only screen and (min-resolution: 1dppx) and (max-resolution: 125dpi) {
+    .side-nav-box {
+        .ListItemButton {
+            .ListItemContent {
+                font-size: 18px;          
+            }           
+        }
+    }
+}

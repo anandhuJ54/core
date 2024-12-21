@@ -1,0 +1,306 @@
+.MuiDialog-paper {
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+  margin:0 !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  overflow-x: hidden;
+  .box-main {
+    width: 534px;
+    .title {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      width: 100%;
+      padding: 5px 10px;
+      background-color: #ca7300;
+      color: #fff;
+      font-weight: 600;
+      .close {
+        color: #fff;
+      }
+    }
+  }
+  .vertical-content::-webkit-scrollbar {
+    display: none;
+}
+  .vertical-content {
+    overflow-y: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+    .equipment-asset-name {
+      display: flex;
+    }
+    .equipment-name {
+      width: 85%;
+      margin-right: 10px;
+    }
+    .equipment-asset {
+      width: 12%;
+      height: 57px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 3.239px;
+      border: 0.324px solid #89919a;
+      img {
+        width: 57px;
+        height: 40px;
+      }
+      .equipment-asset-button {
+        width: 57px;
+        height: 14.9px;
+        border-radius:00 3px 3px;
+        border: 1px;
+        color: #ca7300;
+        font-size: 10px;
+        font-weight: 600;
+      }
+    }
+    .vertical-content-label {
+      color: #ca7300;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    .vertical-text {
+      width: 100%;
+      margin-bottom: 10px;
+      .MuiSelect-outlined{
+        font-size: 12px;
+      }
+      input {
+        color: #6a6d70;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 7.5px 14px;
+      }
+    }
+    .vertical-description {
+      width: 100%;
+      margin-bottom: 10px;
+      input {
+        color: #6a6d70;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 7.5px 14px;
+      }
+    }
+    .equipment-make-model {
+      width: 100%;
+      justify-content: space-between;
+      display: flex;
+      .vertical-content-label {
+        color: #ca7300;
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+      .vertical-make-text {
+        width: 98%;
+        margin-bottom: 10px;
+        input {
+          color: #6a6d70;
+          font-size: 12px;
+          font-weight: 500;
+          padding: 7.5px 14px;
+        }
+      }
+    }
+    .equipment-control-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      .equipment-clear {
+        margin-right: 20px;
+        width: 67px;
+        height: 37px;
+        color: #ca7300;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 5px;
+        border: 1px solid #ca7300;
+        display: flex;
+        padding: 12px 15px;
+        justify-content: center;
+        align-items: center;
+      }
+      .equipment-add {
+        width: 67px;
+        height: 37px;
+        display: flex;
+        padding: 12px 15px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border: 1px solid #ca7300;
+        background: #ca7300;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .equipment-add.disabled {
+        background-color: lightgray;
+        color: gray;
+        cursor: not-allowed;
+    }
+    }
+  }
+  .vertical-footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    background: #fff;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    .vertical-clear {
+      color: #ca7300;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 5px;
+      border: 1px solid #ca7300;
+      margin-right: 10px;
+    }
+    .vertical-save {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 5px;
+      border: 1px solid #ca7300;
+      background: #ca7300;
+      margin-right: 20px;
+    }
+    .vertical-save.disabled {
+      background-color: #e0e0e0;
+      color: #757575;
+      cursor: not-allowed;
+    }
+  }
+}
+@media only screen and (min-resolution: 1dppx) and (max-resolution: 125dpi) {
+  .MuiDialog-paper {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    margin:0 !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    overflow-x: hidden;
+
+    .box-main {
+      width: 250px;
+      
+      .title {
+        height: 60px;
+        padding: 14px 19px;
+        .close {
+          color: #fff;
+          svg{
+            font-size: 24px;
+          }
+        }
+      }
+    }
+
+    .vertical-content::-webkit-scrollbar {
+      display: none;
+    }
+
+    .vertical-content {
+      overflow-y: auto;
+      margin-bottom: 40px;
+      padding: 18px; 
+
+      .equipment-asset-name {
+        .equipment-name {
+          width: 100%; 
+          margin-right: 8px;
+        }
+
+        .equipment-asset {
+          width: 18% !important; 
+          height: 74px !important;
+
+          img {
+            width: 65%; 
+            height: 60px;
+            margin: auto;
+          }
+
+          .equipment-asset-button {
+            width: 100%; 
+            height: 16px;
+            font-size: 10px; 
+          }
+        }
+      }
+      .equipment-make-model {
+        .vertical-make-text {
+          input {
+            color: #6a6d70;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 12px;
+          }
+        }
+      }
+
+      .vertical-content-label {
+        font-size: 16px !important; 
+        margin-bottom: 4px;
+      }
+
+      .vertical-description {
+        height: 80px;
+        }
+        .vertical-text,
+        .vertical-description {
+          width: 100%;
+          margin-bottom: 8px; 
+          font-size: 16px;
+
+        input {
+          font-size: 16px !important; 
+          padding: 12px 12px; 
+        }
+      }
+
+      .equipment-control-btn {
+        margin-top: 25px;
+
+        .equipment-clear {
+          margin-right: 16px;
+          width: 80px;
+          height: 43px;
+          font-size: 15px;
+        }
+
+        .equipment-add {
+          width: 80px; 
+          height: 43px;
+          font-size: 15px; 
+        }
+      }
+    }
+
+    .vertical-footer {
+      height: 60px;
+
+      .vertical-clear {
+        margin-right: 8px;
+        font-size: 16px; 
+      }
+
+      .vertical-save {
+        margin-right: 16px;
+        font-size: 16px; 
+      }
+    }
+  }
+}

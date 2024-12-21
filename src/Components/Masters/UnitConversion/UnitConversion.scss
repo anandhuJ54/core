@@ -1,0 +1,137 @@
+.unit-box {
+  border-radius: 2px;
+  border: 0.5px solid #d5d5d5;
+  background: #fff;
+  flex-shrink: 0;
+  margin: 15px;
+  .unit-sub-box {
+    border-radius: 2px 2px00;
+    border: 0.5px solid #d5d5d5;
+    background: #fff;
+    height: 40px;
+    display: flex;
+    .unit-input{
+      width: 77%;
+      .MuiInputBase-formControl{
+        padding: 7px 14px;
+        font-size: 16px;
+      }
+      .MuiOutlinedInput-notchedOutline{
+        border:none;
+      }
+    }
+    .unit-title {
+      border-radius: 2px 0 0 0;
+      background: #ca7300;
+      width: 10%;
+      height: 100%;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      text-align: center;
+      padding: 3px;
+    }
+   
+    .unit-link {
+      color: #000;
+      font-size: 13px;
+      font-weight: 400;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin-left: 10px;
+      width: 80%;
+    }
+    .unit-icons {
+      display: flex;
+      //justify-content: space-evenly;
+      width: 5%;
+      align-items: center;
+      .unit-svg {
+        border-radius: 5px;
+        border: 0.443px solid var(--lightGrey, #e1e2e3);
+        background: #fff;
+        width: 20px;
+        height: 20px;
+        padding: 3px;
+      }
+    }
+  }
+  .unit-sub-description {
+    border-radius: 2px 2px 0 0;
+    border: 0.5px solid #d5d5d5;
+    background: #fff;
+    display: flex;
+    padding: 8px 8px;
+    .unit-title {
+      width: 10%;
+      height: 100%;
+      color: #000;
+      font-size: 14px;
+      font-weight: 600;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .unit-link {
+        color: #000;
+        font-size: 13px;
+        font-weight: 400;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-left: 10px;
+        width: 90%;
+      }
+  }
+}
+ .unit-input-des{
+      width: 85%;
+      .MuiInputBase-formControl{
+        padding: 7px 14px;
+        font-size: 16px;
+      }
+      .MuiOutlinedInput-notchedOutline{
+        border:none;
+      }
+    }
+    
+@media only screen and (min-resolution: 1dppx) and (max-resolution: 125dpi) {
+  .unit-box {
+    .unit-sub-box {
+      height: 40px;
+      .unit-title {
+        width: 15%;
+        height: 100%;
+        font-size: 16px;
+      }
+      .unit-link {
+        font-size: 15px;
+        margin-left: 10px;
+        width: 80%;
+      }
+      .unit-icons {
+        .unit-svg {
+          border-radius: 5px;
+        }
+      }
+    }
+    .unit-sub-description {
+      padding: 8px 0;
+      .unit-title {
+        width: 15%;
+        height: 100%;
+        font-size: 16px;
+      }
+      .unit-link {
+          font-size: 15px;
+          font-weight: 400;
+          margin-left: 10px;
+          width: 90%;
+        }
+    }
+  }
+}

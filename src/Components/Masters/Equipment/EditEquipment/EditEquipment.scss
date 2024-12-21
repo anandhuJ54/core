@@ -1,0 +1,30 @@
+.equipment-content-edit{
+    .vertical-content{
+        width: 510px;
+        padding:0px;
+        .equipment-name{
+            width: 86%;
+        }
+        .equipment-asset-name{
+           
+            .equipment-asset{
+                width: 59px;
+                height:57px;
+                img{
+                    height:57px
+                }
+            }
+
+        }
+    }
+   
+}
+.attribute-content{
+    .table-container-attribute{
+        margin-top: 15px;
+        margin-left:0;
+    }
+}
+@media only screen and (min-resolution: 1dppx) and (max-resolution: 125dpi) {
+
+} 

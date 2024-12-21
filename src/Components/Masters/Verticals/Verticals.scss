@@ -1,0 +1,148 @@
+.MuiDialog-paper {
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+  margin:0 !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  .box-main {
+    width: 300px;
+    .title {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      width: 100%;
+      padding: 5px 10px;
+      background-color: #ca7300;
+      color: #fff;
+      font-weight: 600;
+      .close {
+        color: #fff;
+      }
+    }
+  }
+  .vertical-content {
+    padding: 15px;
+    width: 100%;
+    .vertical-description-area{
+      font-size: 13px;
+    }
+    .vertical-content-label {
+      color: #ca7300;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    .vertical-text {
+      width: 100%;
+      margin-bottom: 10px;
+      input {
+        color: #6a6d70;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 7.5px 14px;
+      }
+    }
+    .vertical-description {
+      width: 100%;
+      margin-bottom: 10px;
+      input {
+        color: #6a6d70;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 7.5px 14px;
+      }
+    }
+  }
+  .vertical-footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    background: #fff;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    .vertical-clear {
+      color: #ca7300;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 5px;
+      border: 1px solid #ca7300;
+      margin-right: 10px;
+    }
+    .vertical-save {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 5px;
+      border: 1px solid #ca7300;
+      background: #ca7300;
+      margin-right: 20px;
+    }
+    .vertical-save.disabled {
+  background-color: #e0e0e0; 
+  color: #757575; 
+  cursor: not-allowed;
+}
+  }
+}
+@media only screen and (min-resolution: 1dppx) and (max-resolution: 125dpi) {
+  .MuiDialog-paper {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    margin:0 !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    width: 600px;
+
+    .box-main {
+      width: 100% !important; 
+      
+      .title {
+        font-size: 20px;
+        padding: 5px 8px;
+      }
+    }
+
+    .vertical-content {
+      padding: 10px;
+      width: 100% !important;
+      
+      .vertical-content-label {
+        font-size: 18px;
+        margin-bottom: 4px; 
+      }
+
+      .vertical-description-area {
+      height: 80px;
+      }
+      .vertical-text,
+      .vertical-description-area {
+        width: 100%;
+        margin-bottom: 8px; 
+        font-size: 16px;
+        input {
+          font-size: 16px;
+          padding: 12px 12px;
+        }
+      }
+    }
+
+    .vertical-footer {
+      height: 40px;
+      
+      .vertical-clear {
+        font-size: 12px;
+        margin-right: 8px; 
+      }
+
+      .vertical-save {
+        font-size: 12px;
+        margin-right: 16px; 
+      }
+    }
+  }
+}

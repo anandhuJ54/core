@@ -1,0 +1,184 @@
+.upload-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+
+    .upload-card {
+        width: 100%;
+        height: 161px;
+        border-radius: 4.305px;
+        border: 1.076px dashed #CA7300;
+        background: #FBEDDB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .cloud-upload {
+            width: 74px;
+            height: 64px;
+            color: #CA7300;
+        }
+
+        .upload-text {
+            color: #0F0F0F;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 600;
+
+            Button {
+                color: #CA7300;
+                font-family: Open Sans;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 25.828px;
+                text-decoration-line: underline;
+            }
+        }
+
+        .upload-format {
+            color: #676767;
+            text-align: center;
+            font-size: 13px;
+            font-weight: 500;
+
+        }
+
+    }
+
+    .upload-btns {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+        .clear-btn {
+            display: flex;
+            height: 36px;
+            padding: 12px 15px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            border: 1px solid #CA7300;
+            color: #CA7300;
+            font-size: 14px;
+            font-weight: 700;
+            margin-right: 7px;
+        }
+
+        .upload-btn {
+            margin-left: 7px;
+            display: flex;
+            height: 36px;
+            padding: 12px 15px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            border: 1px solid #CA7300;
+            background: #CA7300;
+            color: #FFF;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+    }
+
+    .upload-rename {
+        margin-top: 20px;
+
+        .asset-list-name {
+            margin-bottom: 5px;
+            color: #CA7300;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .asset-list-rename {
+            width: 100%;
+
+            input {
+                color: #6A6D70;
+                font-size: 12px;
+                font-weight: 500;
+                padding: 8px 14px;
+            }
+
+            .MuiInputBase-adornedEnd {
+                padding-right: 10px;
+
+
+                .MuiInputAdornment-positionEnd {
+                    border-radius: 50%;
+                    background-color: #CA7300;
+                    margin:0;
+                    height: 15px;
+                    width: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fff;
+
+                    svg {
+                        height: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-resolution: 1dppx) and (max-resolution: 125dpi) {
+    .upload-main {
+        padding: 25px;
+        .upload-card {
+            width: 100%;
+            height: 200px;
+            .cloud-upload {
+                width: 100px;
+                height: 90px;
+            }   
+            .upload-text {
+                font-size: 18px;   
+                Button {
+                    font-size: 18px;
+                }
+            }   
+            .upload-format {
+                font-size: 15px;    
+            }
+        }
+        .upload-btns {
+            .clear-btn {
+                height: 36px;
+                font-size: 16px;
+            }
+            .upload-btn {
+                height: 36px;
+                padding: 12px 15px;
+                font-size: 16px;
+            } 
+        }
+        .upload-rename {
+       .asset-list-name {
+                font-size: 15px;
+
+            }  
+            .asset-list-rename {
+                input {
+                    font-size: 16px;
+                    padding: 12px;
+                }
+                .MuiInputBase-adornedEnd {
+                    padding-right: 10px;
+                    .MuiInputAdornment-positionEnd {
+                        height: 25px;
+                        width: 25px;
+                        svg {
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

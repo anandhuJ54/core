@@ -1,0 +1,379 @@
+.appbar {
+  height: 55px;
+  border-bottom: 1px solid #ebebeb;
+  background: #fff !important;
+  .masters-toolbar {
+    display: flex;
+    justify-content: space-between;
+    .masters-title {
+      color: #ca7300;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .masters-head-right {
+      display: flex;
+
+      .search {
+        width: 270px;
+        height: 32px !important;
+        input {
+          padding: 7.5px 14px;
+          font-size: 14px;
+        }
+        .search-icon {
+          width: 17.509px;
+          height: 17.51px;
+        }
+      }
+      .masters-btn-new {
+        display: inline-flex;
+        height: 34px;
+        width: 70px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border: 1px solid #ca7300;
+        background: #ca7300;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 10px;
+      }
+      .masters-btn-upload {
+        display: inline-flex;
+        height: 34px;
+        padding: 10px !important;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border: 1px solid #ca7300;
+        color: #ca7300;
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+.sub-side-nav-box {
+  padding:0 !important ;
+  width: 18% !important;
+  position: absolute;
+  .MuiListItem-padding {
+    padding: 5px 10px;
+  }
+  .sub-ListItemButton {
+    margin: 00 00;
+    border-radius: 5px;
+    width: 100%;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.15);
+
+    .sub-ListItemContent {
+      font-feature-settings: "clig" off, "liga" off;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
+.table-container {
+  width: 80% !important;
+  position: relative !important;
+  float: right;
+  margin: 12px 4px 45px 12px;
+  height: 76vh;
+  overflow-y: auto;
+  .vertical-table-head {
+    border: 0.5px solid #d5d5d5;
+    background: #fbeddb;
+    .vertical-head-cell {
+      color: #000;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 5px 20px;
+    }
+  }
+  .action-cell{
+    white-space: nowrap;
+  }
+  .vertical-column-cell {
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 5px;
+    .table-icon {
+      margin: 5px;
+      padding: 5px;
+      border-radius: 5px;
+      border: 0.443px solid var(--lightGrey, #e1e2e3);
+      background: #fff;
+        width: 12px;
+        height: 12px;
+      
+    }
+  }
+  .product-content-box {
+    border-radius: 3px;
+    background: #fff;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.15);
+    width: 50%;
+    margin-right: 10px;
+    .product-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      border-radius: 2px 2px00;
+      border-bottom: 1px solid #ccc;
+      background: #fbeddb;
+      .product-title-name {
+        color: #000;
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 20px;
+      }
+      .product-add-icon {
+        width: 34px;
+        height: 34px;
+        border-radius: 2px;
+        background: #ca7300;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        cursor: pointer;
+      }
+    }
+    .product-table-main {
+      border-radius: 2px;
+      width: 94%;
+      margin: 15px 20px;
+      border-radius: 2px 2px 0 0;
+      border: 1px solid #89919a;
+      .view-modules-box{
+        display: flex;
+    justify-content: end;
+        .view-modules{
+          background: #CA7300;
+      color: #fff;
+      border-radius: 0px;
+      font-size: 13px;
+        }
+      }
+      
+      .product-table {
+        display: flex;
+        border-bottom: 1px solid #89919a;
+        background: #fbeddb;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        .product-table-text {
+          color: #2d4047;
+          font-size: 12px;
+          font-weight: 600;
+          span {
+            color: #6b7280;
+            font-size: 12px;
+            font-weight: 500;
+          }
+        }
+        .MuiFormControlLabel-label {
+          font-size: 14px !important;
+        }
+        label {
+          .Mui-checked {
+            color: #ca7300;
+            font-size: 12px;
+            font-weight: 400;
+          }
+          .MuiSwitch-track {
+            background-color: #fff;
+            border: 1px solid #ca7300;
+          }
+        }
+        .icon-table{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .product-table-delete {
+            width: 19px;
+            height: 20px;
+            border-radius: 1.772px;
+            border: 0.443px solid var(--lightGrey, #e1e2e3);
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 15px;
+            svg {
+              width: 11px;
+              height: 13px;
+              color: #1e3050;
+            }
+          }
+        }
+       
+      }
+      .version-description{
+        border-bottom: 0px !important;
+      }
+      .product-table-release {
+        display: flex;
+    
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 10px;
+        border-bottom: 1px solid #89919a;
+       
+        .version {
+          color: #2d4047;
+            font-size: 12px;
+            font-weight: 600;
+          
+            span {
+              color: #6b7280;
+              font-size: 12px;
+              font-weight: 500;
+            }
+          
+            .file-icon {
+              padding: 5px 5px;
+              margin-left: 5px;
+              cursor: pointer;
+              border: 1px solid;
+              border-radius: 50%;
+              height: 15px;
+              width: 15px;
+          
+            }
+          }
+          }
+    }
+  }
+}
+.Mui-selected {
+  background: #ca7300 !important;
+}
+.MuiListItem-variantPlain {
+  padding:0 5px !important;
+}
+.table-icon {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #fff;
+    width: 16px;
+    height: 16px;
+  
+}
+
+@media only screen and (min-resolution: 1dppx) and (max-resolution: 125dpi) {
+  .appbar {
+    height: 55px;
+    .masters-toolbar {
+      .masters-title {
+        font-size: 18px;
+      }
+      .masters-btn-new,
+      .masters-btn-upload {
+        height: 30px;
+        width: 100px;
+        font-size: 16px;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .sub-side-nav-box {
+    width: 15% !important;
+    .MuiListItem-padding {
+      padding: 4px 8px;
+    }
+    .sub-ListItemButton {
+      .sub-ListItemContent {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .table-container {
+    width: 84% !important;
+    height: 76vh;
+    .vertical-table-head {
+      .vertical-head-cell {
+        font-size: 16px;
+        padding: 4px 8px;
+      }
+    }
+    .vertical-column-cell {
+      font-size: 14px;
+      padding: 4px 8px;
+      .table-icon {
+        padding: 5px;
+        width: 18px;
+        height: 18px;
+      }
+    }
+    .product-content-box {
+      width: 50%;
+      margin-right: 10px;
+      .product-title {
+        height: 50px;
+        .product-title-name {
+          font-size: 16px;
+        }
+        .product-add-icon {
+          width: 34px;
+          height: 34px;
+        }
+      }
+      .product-table-main {
+        .product-table {
+          .product-table-text {
+            font-size: 14px;
+            span {
+              font-size: 14px;
+            }
+          }
+          .MuiFormControlLabel-label {
+            font-size: 14px !important;
+          }
+          label {
+            .Mui-checked {
+              font-size: 14px;
+            }
+          }
+          .product-table-delete {
+            width: 28px;
+            height: 28px;
+            svg {
+              width: 18px;
+              height: 18px;
+            }
+          }
+        }
+        .product-table-release {      
+          .version {
+            font-size: 14px;
+            span {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .Mui-selected {
+    background: #ca7300 !important;
+  }
+
+  .MuiListItem-variantPlain {
+    padding:0 4px !important;
+  }
+ 
+}

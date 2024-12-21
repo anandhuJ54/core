@@ -1,0 +1,48 @@
+.iconlibrary {
+    padding:0 !important;
+
+    .icon-main-library {
+        .text {
+            color: #CA7300;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .searchbar-iconlibrary {
+            padding:0 !important;
+            input {
+                color: #6A6D70;
+                font-size: 12px;
+                font-weight: 500;
+                padding: 7.5px 14px;
+            }
+        }
+    }
+    .icon-dropdown{
+        position: absolute;
+        z-index: 1;
+        background: #fff;
+        right: 2rem;
+        width: 300px;
+    }
+}
+.icon-fontawesome{
+    color: #CA7300;
+    }
+    @media only screen and (min-resolution: 1dppx) and (max-resolution: 125dpi) {
+        .iconlibrary {
+            .icon-main-library {
+                .text {
+                    font-size: 14px;
+                    margin-bottom: 4px;
+                }
+                .searchbar-iconlibrary {
+                    input {
+                        font-size: 14px;
+
+                    }
+                }
+            }
+    }
+}

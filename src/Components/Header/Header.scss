@@ -1,0 +1,245 @@
+.header {
+  box-shadow: 0 4px 10px 0 #00000026;
+  height: 40px !important;
+  min-height: 40px !important;
+  background-color: #ca7300;
+  top: 0;
+  position: sticky !important;
+  width: 100%;
+  z-index: 1;
+  padding-right:0 !important;
+
+  .logo {
+    flex-grow: 1;
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+    .icon-back{
+      color: #fff;
+    }
+
+    img {
+      margin-right: 25px;
+      padding: 9px 0 4px 0;
+    }
+  }
+
+  .child-name {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .text-hidden {
+      font-size: 20px;
+      font-weight: 600;
+      color: #ffffff;
+      visibility: hidden;
+    }
+
+    .text-mid {
+      font-size: 20px;
+      font-weight: 600;
+      color: #ffffff;
+      visibility: visible;
+      padding-left: 300px;
+    }
+
+    .icon-help {
+      margin-right: 30px;
+      color: #ffffff !important;
+      cursor: pointer;
+    }
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+
+    .help-icon {
+      color: #ffffff;
+      width: 24px;
+      height: 24px;
+      margin-right: 25px;
+    }
+
+    .user-name {
+      text-align: right;
+      margin-right: 0.5rem;
+
+      .login-time {
+        color: #fff;
+        text-align: right;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      h3 {
+        color: #fff;
+        text-align: right;
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      h4 {
+        color: #8c8c94;
+        font-size: 0.8rem;
+      }
+    }
+
+    .userBadge {
+      margin-right: 1rem;
+
+      .avatar {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.logoutmenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+
+  .MuiPaper-root {
+    width: 250px !important;
+    left: 80% !important;
+    border-radius: 12px !important;
+    top: 40px !important;
+  }
+
+  .MuiMenu-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .new-log {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: flex-end;
+
+      .new-close {
+        margin: 10px 10px 6px 0px;
+        justify-content: flex-end;
+        cursor: pointer;
+        font-size: 16px !important;
+      }
+    }
+
+    .avatar-logout {
+      width: 30px !important;
+      height: 30px !important;
+      font-size: 16px !important;
+    }
+
+    .name-new {
+      font-weight: 600 !important;
+      font-size: 16px !important;
+      margin-top: 10px !important;
+    }
+
+    .logout-btn {
+      width: 100%;
+      justify-content: center !important;
+      margin-top: 10px !important;
+      font-size: 14px !important;
+      font-weight: 500 !important;
+    }
+
+    .logout-btn2 {
+      border: none;
+      display: flex;
+      width: 80%;
+      height: 32px;
+      justify-content: center !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      background-color: #ca7300 !important;
+      border-radius: 5px !important;
+      color: white !important;
+      font-weight: 600 !important;
+      font-size: 14px !important;
+      cursor: pointer;
+      padding: 5px 0;
+
+      .logout-icon {
+        margin-left: 10px;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-resolution: 1dppx) and (max-resolution: 125dpi) {
+  .header {
+    height: 60px !important;
+
+    .logo {
+      img {
+        width: 150px;
+      }
+    }
+    .child-name {
+      .text-mid {
+        padding-left: 200px;
+      }
+    }
+    .profile {
+      .help-icon {
+        width: 32px;
+        height: 32px;
+      }
+      .user-name {
+        .login-time {
+          font-size: 18px;
+        }
+        h3 {
+          font-size: 18px;
+        }
+        h4 {
+          font-size: 0.7rem;
+        }
+      }
+      .userBadge {
+        .avatar {
+          width: 46px;
+          height: 46px;
+          font-size: 18px;
+        }
+      }
+    }   
+  }
+  .logoutmenu {
+    .MuiPaper-root {
+      width: 300px !important;
+      height: 230px;
+      margin-top: 20px;
+      .avatar-logout {
+        width: 46px !important;
+        height: 46px !important;
+        font-size: 18px !important;
+      }
+      .name-new {
+        font-size: 18px !important;
+      }
+      .logout-btn {
+        font-size: 16px !important;
+      }
+      .logout-btn2 {
+        height: 40px;
+        font-size: 16px !important;
+        .logout-icon {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

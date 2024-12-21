@@ -1,0 +1,39 @@
+
+    .document-page{
+        padding:15px;
+        .label{
+            font-size: 13px;
+            font-weight: 600;
+            color: #CA7300;
+            margin-bottom: 5px;
+        }
+        .card{
+            display: flex;
+            cursor: pointer;
+            .card-box{
+                margin:5px 15px;
+                background: #FFF5E8;
+                width: 35px;
+                height: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .card-icon{
+                    color: #CA7300;
+                }
+            }
+           
+            .card-name{
+                margin-top: 10px;
+                font-size: 13px;
+                font-weight: 500;
+            }
+           
+        }
+        .card-map{
+            margin-bottom: 5px;
+        }
+
+    
+    }
+   
